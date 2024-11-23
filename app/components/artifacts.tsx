@@ -240,7 +240,7 @@ export function Artifacts() {
           shadow
           onClick={() => previewRef.current?.reload()}
         />
-        <div className={styles["artifacts-title"]}>NextChat Artifacts</div>
+        <div className={styles["artifacts-title"]}>NextChat （由不知名机场提供服务） Artifacts</div>
         <ArtifactsShareButton
           id={id}
           getCode={() => code}
